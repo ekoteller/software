@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fel | Lüks Saatler & Takılar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <span>Ücretsiz Kargo | 5 Yıl Garanti</span>
+            <div class="theme-switcher">
+                <button id="themeToggle"><i class="fas fa-moon"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">THE FEL</a>
+            <div class="nav-links">
+                <a href="#anasayfa">Anasayfa</a>
+                <a href="#urunler">Koleksiyon</a>
+                <a href="#ozellikler">Özellikler</a>
+                <a href="#iletisim">İletişim</a>
+                <a href="#" class="sepet"><i class="fas fa-shopping-bag"></i> <span class="cart-count">0</span></a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Güncellenmiş) -->
+<section id="anasayfa" class="hero">
+    <div class="hero-content">
+        <h1 data-aos="fade-up">ZAMANIN SANATI</h1>
+        <p data-aos="fade-up" data-aos-delay="200">Özel tasarım lüks saatler ve takı koleksiyonu</p>
+        <a href="#urunler" class="btn explore-btn" data-aos="fade-up" data-aos-delay="400">
+            <span>KEŞFET</span>
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+</section>
+
+<!-- Mobil Menü (Yeni Eklenen) -->
+<div class="mobile-menu">
+    <div class="mobile-menu-content">
+        <a href="#anasayfa">Anasayfa</a>
+        <a href="#urunler">Koleksiyon</a>
+        <a href="#ozellikler">Özellikler</a>
+        <a href="#iletisim">İletişim</a>
+        <a href="#" class="mobile-cart">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count">0</span>
+        </a>
+    </div>
+</div>
+
+    <!-- Ürün Filtre -->
+    <section class="product-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="saat">Saatler</button>
+                <button class="filter-btn" data-filter="takı">Takılar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ürünler -->
+    <section id="urunler" class="products">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">ÖNE ÇIKANLAR</h2>
+            <div class="product-grid">
+                <!-- Ürün 1 -->
+                <div class="product-card" data-category="saat" data-aos="fade-up">
+                    <div class="product-badge">YENİ</div>
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Fel Classic Saat">
+                        <div class="product-actions">
+                            <button class="quick-view"><i class="fas fa-search"></i></button>
+                            <button class="add-to-cart"><i class="fas fa-shopping-bag"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Fel Classic</h3>
+                        <div class="price">₺3,499.00</div>
+                        <a href="https://www.example.com/satin-al" class="btn">SATIN AL</a>
+                    </div>
+                </div>
+
+                <!-- Ürün 2 -->
+                <div class="product-card" data-category="takı" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Elmas Kolye">
+                        <div class="product-actions">
+                            <button class="quick-view"><i class="fas fa-search"></i></button>
+                            <button class="add-to-cart"><i class="fas fa-shopping-bag"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Elmas Kolye</h3>
+                        <div class="price">₺2,899.00</div>
+                        <a href="https://www.example.com/satin-al" class="btn">SATIN AL</a>
+                    </div>
+                </div>
+
+                <!-- Ürün 3 -->
+                <div class="product-card" data-category="saat" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-badge">%15 İNDİRİM</div>
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Deri Kemerli Saat">
+                        <div class="product-actions">
+                            <button class="quick-view"><i class="fas fa-search"></i></button>
+                            <button class="add-to-cart"><i class="fas fa-shopping-bag"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Deri Kemerli Saat</h3>
+                        <div class="price">
+                            <span class="old-price">₺4,200.00</span>
+                            ₺3,570.00
+                        </div>
+                        <a href="https://www.example.com/satin-al" class="btn">SATIN AL</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Özellikler -->
+    <section id="ozellikler" class="features">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">NEDEN THE FEL?</h2>
+            <div class="feature-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <i class="fas fa-gem"></i>
+                    <h3>Premium Kalite</h3>
+                    <p>En iyi malzemelerle üretilmiş lüks ürünler</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>5 Yıl Garanti</h3>
+                    <p>Tüm ürünlerimiz uzun vadeli garanti kapsamında</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-truck"></i>
+                    <h3>Ücretsiz Kargo</h3>
+                    <p>Türkiye geneli ücretsiz kargo imkanı</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="iletisim" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>THE FEL</h3>
+                    <p>Zamanın zarafetini taçlandıran lüks saatler ve takılar</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Hızlı Linkler</h3>
+                    <ul>
+                        <li><a href="#anasayfa">Anasayfa</a></li>
+                        <li><a href="#urunler">Koleksiyon</a></li>
+                        <li><a href="#ozellikler">Özellikler</a></li>
+                        <li><a href="#iletisim">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>İletişim</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</li>
+                        <li><i class="fas fa-phone"></i> 0 (212) 123 45 67</li>
+                        <li><i class="fas fa-envelope"></i> info@thefel.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 <strong>THE FEL</strong>. Tüm hakları saklıdır.</p>
+                <p class="developer">Site yazılımı: <a href="https://www.ekotsoftware.com" target="_blank">EkoT Software</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scriptler -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
