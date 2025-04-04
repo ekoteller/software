@@ -1,0 +1,2 @@
+# software
+E-Ticaret Yazılım
